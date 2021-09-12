@@ -1,0 +1,129 @@
+.wholebody {
+    font-family: cursive;
+}
+
+li {
+    float: left;
+}
+
+.nav1 {
+    background-color: #0e5825;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li a,
+.dropbtn {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropbtn:hover .dropbtn {
+    background-color: rgb(10, 32, 15);
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav2 {
+    background-color: #292a30;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nvl a:hover {
+    background-color: #0d0e11;
+}
+
+.headingtext {
+    color: rgb(51, 105, 51);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+    grid-column-gap: 50px;
+    padding: 10px;
+
+}
+
+.grid-item {
+    padding: 20px;
+}
+
+.scorecard {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.isc {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.sclinks a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.sclinks a:hover {
+    text-decoration: underline;
+}
+
+
+
+.sclink1 {
+    padding: 34px;
+}
+
+#sc1 {
+    color: black;
+    text-decoration: none;
+}
+
+.vlinks a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.vlinks a:hover {
+    text-decoration: underline;
+}
